@@ -1,0 +1,13 @@
+// -------------------------
+// ----- メディアクエリ -----
+// -------------------------
+$xl: 1240px;
+$lg: 1030px;
+$md: 768px;
+$sm: 480px;
+
+@mixin mq($break-point) {
+  @media (max-width: $break-point) {
+    @content;
+  }
+}
